@@ -21,7 +21,7 @@ public class PrestamoServicio {
 	}
     
 	public List<Prestamo> encontrarPrestamo(Prestamo p) {
-		return pre.findPrestamoByidentificaciónUsuario(p.getIdentificaciónUsuario());
+		return pre.findPrestamoByidentificacionUsuario(p.getIdentificacionUsuario());
 	}
 	
 	//METODO PARA CALULAR LA FECHA

@@ -10,7 +10,7 @@ import org.springframework.data.repository.CrudRepository;
 @Repository
 public interface PrestamoRepository extends CrudRepository<Prestamo,Long>{
 	
-	List<Prestamo>  findPrestamoByidentificaciónUsuario(String identificaciónUsuario);
+	List<Prestamo>  findPrestamoByidentificacionUsuario(String identificacionUsuario);
 
 }
  

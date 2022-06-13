@@ -20,7 +20,7 @@ public class Prestamo implements Serializable {
 	private String isbn;
 	
 	@Column(length=10)
-	private String identificaciónUsuario;
+	private String identificacionUsuario;
 	
 
 	@Column(length=1)
@@ -47,12 +47,12 @@ public class Prestamo implements Serializable {
 		this.isbn = isbn;
 	}
 
-	public String getIdentificaciónUsuario() {
-		return identificaciónUsuario;
+	public String getIdentificacionUsuario() {
+		return identificacionUsuario;
 	}
 
-	public void setIdentificaciónUsuario(String identificaciónUsuario) {
-		this.identificaciónUsuario = identificaciónUsuario;
+	public void setIdentificacionUsuario(String identificacionUsuario) {
+		this.identificacionUsuario = identificacionUsuario;
 	}
 
 	public int getTipoUsuario() {
